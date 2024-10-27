@@ -1,14 +1,12 @@
 class Solution
 {
     public:
-    bool isAnagram(string a, string b){
+    bool isAnagram(string arr, string brr){
         
         // Your code here
-        sort(a.begin(),a.end());
-        sort(b.begin(),b.end());
-        
-        return a==b;
-        
+        sort(arr.begin(),arr.end());
+        sort(brr.begin(),brr.end());
+        return arr==brr;
     }
 
 };
